@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>购物车订单页</title>
+    <link rel="stylesheet" href="../sass/css/base.css">
+    <link rel="stylesheet" href="../sass/css/com.css">
+    <link rel="stylesheet" href="../sass/css/cart.css">
+    <script src="../js/commom.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+</head>
+
+<body>
+    <div id="jianke">
+        <div class="head">
+
+            <div class="head-top clearfix">
+                <div class="container">
+                    <ul class="welcome fl" id="welcome">
+                        <li class="fl">欢迎来到剑客网上药店!</li>
+                        <li class="fl"><a class="login-inf" href="../html/login.html"></a> </li>
+                        <li class="fl"><a href="../html/reg.html">注册</a></li>
+                    </ul>
+                    <ul class="head-top-nav fr">
+                        <li class="fl"><a href="###">线下药店</a> </li>
+                        <li class="fl my-order">
+                            <a href="###">我的健客</a>
+                            <ul class="my-order-item">
+                                <li><a href="###">我的订单</a></li>
+                                <li><a href="###">我的优惠券</a></li>
+                            </ul>
+                        </li>
+                        <li class="fl cus-ser">
+                            <a href="###">客户服务</a>
+                            <ul class="cus-ser-item">
+                                <li><a href="###">购物指南</a></li>
+                                <li><a href="###">配送方式</a></li>
+                                <li><a href="###">支付方式</a></li>
+                                <li><a href="###">售后方式</a></li>
+                            </ul>
+                        </li>
+                        <li class="fl mobile-app">
+                            <em></em>
+                            <a href="###">手机版</a>
+                            <ul class="mobile-app-item">
+                                <li><a href="###">购物指南</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="fl shopping-car"><em></em> <a href="###">购物车</a> </li>
+                        <li class="fl home-nav">
+                            <em></em>
+                            <a href="###">网站导航</a>
+                            <ul class="home-nav-item">
+                                <li><a href="###">购物指南</a></li>
+                                <li><a href="###">配送方式</a></li>
+                                <li><a href="###">支付方式</a></li>
+                                <li><a href="###">售后方式</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="head-middle ">
+                <div class="container clearfix">
+                    <div class="logo-wrap clearfix">
+                        <div class="logo-bg fl"></div>
+                        <h1 class="fl">购物车</h1>
+                        <div class="processing fr">
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="tap-wrap">
+                    <div class="btns-wrap clearfix">
+                        <a class="fl" href="">购物车</a>
+                        <a class="fl" href="">需求清单</a>
+                    </div>
+                    <div class="select-all-top clearfix">
+                        <p class="fl item1"><input type="checkbox" name="user" id="" class="select-all">全选:</p>
+                        <p class="fl item2">商品信息</p>
+                        <p class="fl item3">单价(元)</p>
+                        <p class="fl item4">数量</p>
+                        <p class="fl item5">小计(元)</p>
+                        <p class="fl item6">操作</p>
+                    </div>
+                    <div class="self-support clearfix">
+                        <p class="fl" ><input type="checkbox" name="user" id="" class="select-all"></p>
+                        <a class="fl"  href="###">健客自营</a>
+                    </div>
+                </div>
+                <ul class="order-wrap" id="order-wrap">
+                     <!-- <li class="item clearfix">
+                        <dt class="fl choose">
+                            <input type="checkbox" name="user" class="check">
+                        </dt>
+                        <dd class="fl main-pic">
+                            <a href="###">
+                                <img src="../images/list/goods-1.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd class="fl name">
+                                <a>感冒灵颗粒</a>
+                            </dd>
+                        <dd class="fl size">
+                            <span>规格：10g*9袋</span>
+                        </dd>
+                        <dd class="fl price">
+                            <span class="currprice">16.00</span>
+                            <span class="origprice">16.50</span>
+                        </dd>
+                        <dd class="fl qty">
+                            <a class="dec" href="###">-</a>
+                            <input type="text" name="user" id="quan-input" value="1">
+                            <a href="###" class="add">+</a>
+                        </dd>
+                        <dd class="fl total">
+                            <span>48.00</span>
+                        </dd>
+                        <dd class="fl fav">
+                            <a href="###">移入收藏夹</a>
+                            <a href="###">删除</a>
+                        </dd>
+                       
+                     </li>   -->
+                 
+                </ul>
+                <ul class="check-out-wrap clearfix" id="check-out-wrap">
+                    <li class="fl">
+                        <label for="select-all"></label><input type="checkbox" name="user" class="select-all">
+                        全选</label>
+                        
+                    </li>
+                    <li class="fl">
+                        <a class="fl del" href="###">删除选中的商品</a>
+                        <a class="fl" href="###">移到我的收藏夹</a>
+                        <a class="fl" href="###">清除下柜商品</a>
+                    </li>
+                    <li class="fl">
+                        <span class="pcs"></span>
+                        <span>(不含运费)</span>
+                
+                    </li>
+                    <li class="fl">
+                        <span class="final-price"></span>
+                        <span>已节省</span>
+                    </li>
+                    <li class="fr">
+                        <a class="bill" href="###">去结算</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="contact-wrap">
+            <div class="container clearfix">
+                <dl class="contact-item fl">
+                    <dt>关于健客</dt>
+                    <dd><a href="###">健客简介</a></dd>
+                    <dd><a href="###">资质荣誉</a></dd>
+                    <dd><a href="###">加入我们</a></dd>
+                    <dd><a href="###">联系我们</a></dd>
+                    <dd><a href="###">广告合作</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>支付配送方式</dt>
+                    <dd><a href="###">货到付款</a></dd>
+                    <dd><a href="###">第三方网上支付</a></dd>
+                    <dd><a href="###">配送范围和收费</a></dd>
+                    <dd><a href="###">商品签收注意</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>帮助中心</dt>
+                    <dd><a href="###">购物指南</a></dd>
+                    <dd><a href="###">订单处理</a></dd>
+                    <dd><a href="###">退换原则</a></dd>
+                    <dd><a href="###">退换方式</a></dd>
+                    <dd><a href="###">电话查真伪</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>客服热线</dt>
+                    <dd><span class="hot-line-tt">订购热线</span><span class="hot-line-num">400-6666-800</span></dd>
+                    <dd><span>服务时间：08:00-23:00</span></dd>
+                    <dd><span class="hot-line-tt">退换货热线：</span><span class="hot-line-num">400-6666-800</span></dd>
+                    <dd><span>服务时间：09:00-19:00</span></dd>
+                    <dd><a href="###"><img src="" alt=""></a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>手机平台</dt>
+                    <dd><a href="###"><em class="img1"></em></a><a href="###">健客医生</a></dd>
+                    <dd><a href="###"><em class="img2"></em></a><a href="###">健客网上商店</a></dd>
+                    <dd><a href="###"><em class="img3"></em></a><a href="###">手机糖宝</a></dd>
+                    <dd><a href="###"><em class="img4"></em></a><a href="###">健客问医生</a></dd>
+                    <dd><a href="###"><em class="img5"></em></a><a href="###">男人加油站</a></dd>
+                    <dd><a href="###"><em class="img6"></em></a><a href="###">护肤小贴士</a></dd>
+                    <dd><a href="###"><em class="img7"></em></a><a href="###">健客微商城</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>关于我们</dt>
+                    <dd><a href="###"><em class="img8"></em> </a><a href="###">微博</a></dd>
+                    <dd><a href="###"><em class="img9"></em> </a><a href="###">qq空间</a></dd>
+                    <dd><a href="###"><em class="img10"></em> </a><a href="###">微信</a></dd>
+
+                </dl>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="container">
+                <p>健客－国家药监局认证的合法网上药店，致力于打造优质、低价、便捷的网上药店和最值得信赖的健康服务平台</p>
+                <p>版权所有 Copyright©2006-2017 www.jianke.com All rights reserved</p>
+                <p>
+                    <a href="###">互联网药品交易服务资格证书</a>
+                    <a href="###">企业营业执照</a>
+                    <a href="###">互联网药品信息服务资格证书</a>
+                </p>
+                <div class="copy">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+    <script src="../js/cart.js"></script>
+</html>

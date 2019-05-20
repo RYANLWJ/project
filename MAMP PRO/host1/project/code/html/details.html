@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>详情页</title>
+    <link rel="stylesheet" href="../sass/css/amazeui.min.css">
+    <link rel="stylesheet" href="../sass/css/base.css">
+
+    <link rel="stylesheet" href="../sass/css/com.css">
+    <link rel="stylesheet" href="../sass/css/details.css">
+    <script src="../js/commom.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/zoomsl.js"></script>
+    <script src="../js/zoomsl.min.js"></script>
+    <script src="../js/amazeui.min.js"></script>
+</head>
+
+<body>
+    <div id="jianke">
+        <div class="head">
+
+            <div class="head-top clearfix">
+                <div class="container">
+                    <ul class="welcome fl" id="welcome">
+                        <li class="fl"><a href="../html/main.html">欢迎来到剑客网上药店!</a></li>
+                        <li class="fl"><a class="login-inf" href="../html/login.html">登录</a> </li>
+                        <li class="fl"><a href="../html/reg.html">注册</a></li>
+                    </ul>
+                    <ul class="head-top-nav fr">
+                        <li class="fl"><a href="###">线下药店</a> </li>
+                        <li class="fl my-order">
+                            <a href="###">我的健客</a>
+                            <ul class="my-order-item">
+                                <li><a href="###">我的订单</a></li>
+                                <li><a href="###">我的优惠券</a></li>
+                            </ul>
+                        </li>
+                        <li class="fl cus-ser">
+                            <a href="###">客户服务</a>
+                            <ul class="cus-ser-item">
+                                <li><a href="###">购物指南</a></li>
+                                <li><a href="###">配送方式</a></li>
+                                <li><a href="###">支付方式</a></li>
+                                <li><a href="###">售后方式</a></li>
+                            </ul>
+                        </li>
+                        <li class="fl mobile-app">
+                            <em></em>
+                            <a href="###">手机版</a>
+                            <ul class="mobile-app-item">
+                                <li><a href="###">购物指南</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="fl shopping-car"><em></em> <a href="###">购物车</a> </li>
+                        <li class="fl home-nav">
+                            <em></em>
+                            <a href="###">网站导航</a>
+                            <ul class="home-nav-item">
+                                <li><a href="###">购物指南</a></li>
+                                <li><a href="###">配送方式</a></li>
+                                <li><a href="###">支付方式</a></li>
+                                <li><a href="###">售后方式</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="head-middle ">
+                <div class="container clearfix">
+                    <dl class="logo-wrap fl">
+                        <dt class="logo-bg"></dt>
+                        <dd>轮播文字</dd>
+                    </dl>
+                    <dl class="search-wrap fl">
+                        <dt class="sch-bar-wrap">
+                            <em></em>
+                            <input type="text" name="user" id="sch-input">
+                            <input type="button" value="搜索" id="sch-btn">
+                            <a href="###">综合搜索</a>
+                        </dt>
+                        <dd>热门搜索:
+                            <a href="###">金戈</a>
+                            <a href="###">伟力得</a>
+                            <a href="###">爱丽</a>
+                            <a href="###">必利劲</a>
+                            <a href="###">安宫牛黄丸</a>
+
+                        </dd>
+                    </dl>
+                    <dl class="shipping-wrap fl">
+                        <a href=""><em></em>物流查询</a>
+                        <!-- <a href=""><em></em>我的订单</a> -->
+
+                </div>
+            </div>
+
+        </div>
+        <ul class="nav">
+            <div class="container clearfix">
+                <li class="fl"><a href="###">全部商品分类</a></li>
+                <li class="fl"><a href="../html/main.html">首页</a></li>
+                <li class="fl"><a href="../html/main.html">新药特药</a></li>
+                <li class="fl"><a href="../html/main.html">男科频道</a></li>
+                <li class="fl"><a href="../html/main.html">无痛测糖</a></li>
+
+                <li class="fr">
+                    <img src="../images/list/tel.jpg" alt="">
+                </li>
+            </div>
+        </ul>
+        <div class="ad">
+            <div class="container">
+                <img src="../images/list/ad.jpg" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="goods-show-wrap clearfix" id="goods-show-wrap">
+                    <!-- <div class="goods-show-left fl">
+                        <ul class="main-pic" id="main-pic">
+                            <li><img class="example" src="../images/list/goods-1.jpg" alt=""></li>
+                            <li><img class="example" src="../images/list/goods-1-s2.jpg" alt=""></li>
+                            <li><img class="example" src="../images/list/goods-1-s3.jpg" alt=""></li>
+                            <li><img class="example" src="../images/list/goods-1-s4.jpg" alt=""></li>
+                            <li><img class="example" src="../images/list/goods-1-s5.jpg" alt=""></li>
+                        </ul>
+                        <ul class="sub-pic clearfix" id="sub-pic">
+                            <li class="fl"><img src="../images/list/goods-1-s1.jpg" alt=""></li>
+                            <li class="fl"><img src="../images/list/goods-1-s2.jpg" alt=""></li>
+                            <li class="fl"><img src="../images/list/goods-1-s3.jpg" alt=""></li>
+                            <li class="fl"><img src="../images/list/goods-1-s4.jpg" alt=""></li>
+                            <li class="fl"><img src="../images/list/goods-1-s5.jpg" alt=""></li>
+                        </ul>
+                        <p class="sub-text">
+                            <span>温馨提示：</span>图片均为健客对原品的真实拍摄，仅供参考；如遇新包装上市可能存在更新滞后，请以实物为准！
+                        </p>
+                        <a class="fav-btn" href="###">
+                            <em></em>
+                            收藏商品
+                        </a>
+                    </div>
+                    <div class="goods-show-right fl">
+
+                        <h1>布洛芬缓释胶囊(芬必得) </h1>
+                        <p class="sub-tt">用于缓解轻至中度疼痛如：关节痛、肌肉痛、神经痛、头痛、偏头痛、牙痛、痛经，也用于普通感冒或流行性感冒引起的发热。</p>
+                        <dl class="app clearfix">
+                            <dt>【戳我下载APP 立省1000元】
+                                <img src="../images/list/promise.jpg" alt="">
+                            </dt>
+                        </dl>
+                        <dl class="name clearfix">
+                            <dt> 通用名称:</dt>
+                            <dd> 布洛芬缓释胶囊</dd>
+                            <dd><img src="../images/list/ico-otc.gif" alt=""></dd>
+
+
+                        </dl>
+                        <dl class="procode clearfix">
+                            <dt> 产品编号:</dt>
+                            <dd>C12201000028</dd>
+                        </dl>
+                        <dl class="apprnum clearfix">
+                            <dt> 批准文号:</dt>
+                            <dd>国药准字H10900089</dd>
+                        </dl>
+                        <dl class="rate clearfix">
+                            <dt> 商品评分:</dt>
+                            <dd><img src="../images/list/star.jpg" alt=""></dd>
+                        </dl>
+                        <dl class="price clearfix">
+                            <dt> 价格:</dt>
+                            <dd>￥24.20</dd>
+
+                        </dl>
+                        <dl class="cupon clearfix">
+                            <dt> 优惠券:</dt>
+                            <dd>
+                                <a class="fl" href=""><img src="../images/list/cupon-1.png" alt=""></a>
+                                <a class="fl" href=""><img src="../images/list/cupon-2.png" alt=""></a>
+                                <a class="fl" href=""><img src="../images/list/cupon-3.png" alt=""></a>
+                            </dd>
+
+                        </dl>
+                        <dl class="memo clearfix">
+                            <dt> 用药须知:</dt>
+                            <dd>请注意：布洛芬不要与咖啡/可乐一起服用。</dd>
+                        </dl>
+                        <dl class="set clearfix">
+                            <dt> 选择套餐:</dt>
+                            <dd>
+                                <a href="###">一件体验装</a>
+                            </dd>
+
+                        </dl>
+                        <dl class="size clearfix">
+                            <dt> 产品规格:</dt>
+                            <dd>
+                                <a href="###"></a>
+                            </dd>
+
+                        </dl>
+                        <dl class="producer clearfix">
+                            <dt> 生产厂家:</dt>
+                            <dd>中美天津史克制药有限公司</dd>
+
+                        </dl>
+                        <dl class="quan clearfix">
+                            <dt> 购买数量:</dt>
+                            <dd><input type="text" name="user" id="quan-input" value="1"> </dd>
+                            <dd>
+                                <a class="add" href=""></a>
+                                <a class="dec" href=""></a>
+
+                            </dd>
+                        </dl>
+                        <dl class="buy clearfix">
+                            <a class="buy-now-btn" href="###">立即购买</a>
+                            <a class="cart-btn" href="###">加入购物车</a>
+                            <a class="call-btn" href="###"></a>
+                        </dl>
+                        <div class="confident">
+                            <dt>健客承诺</dt>
+                            <dd>
+                                <img src="../images/list/zheng.jpg" alt="">
+                                <a href="">正品保证</a>
+                                <img src="../images/list/fu.jpg" alt="">
+                                <a href="">货到付款 银行汇款/转账 在线支付</a>
+                            </dd>
+                        </div>
+                        <div class="download-code">
+                            <img src="../images/list/download-code.jpg" alt="">
+                            <span>扫码下载领1000元</span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="comment-wrap clearfix">
+            <div class="container">
+         <div class="comment-sub-wrap fr">
+            <ul class="tap-ctrl clearfix">
+                <li class="fl"><a href="###"> 商品介绍</a></li>
+                <li class="fl"><a href="###"> 说明书</a></li>
+                <li class="fl"><a href="###"> 资质证明</a></li>
+                <li class="fl active"><a href="###"> 用户评价</a></li>
+                <li class="fl"><a href="###"> 相关问答</a></li>
+                <li class="fl"><a href="###"> 相关资讯</a></li>
+            </ul>
+            <ul class="content-box">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li id="user-comment">
+                    <div class="write-btn">
+                        <a href="###">发表评价</a>
+                        <div class="shade-input-wrap">
+                            <dl>
+                                <dt>
+                                   <span>请留下您的使用感受</span>
+                                   <a class="close" href="###">关闭</a>
+                                </dt>
+                                <dd>
+                                   <textarea name="" id="con" ></textarea>
+                                </dd>
+                                <dd><a class="submit" href="###">提交</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="written-content-wrap">
+                        <!-- <dl class="content-item">
+                            <dt class="user-name">
+                                <span>1843423524</span>
+                            </dt>
+                            <dd class="user-con">
+                                <span>真的很好用啊
+                                        真的很好用啊
+                                            真的很好用啊
+                                            真的很好用啊
+                                            真的很好用啊
+                                            很好用啊
+                                            真的很好用啊
+                                            真的很好用
+                                          
+                                                真的很好用啊
+                                </span>
+                            </dd>
+                        </dl> -->
+                    </div>
+                </li>
+                <li>5</li>
+                <li>6</li>
+               
+            </ul>
+        </div>
+            </div>
+        </div>
+
+
+
+        <div class="contact-wrap">
+            <div class="container clearfix">
+                <dl class="contact-item fl">
+                    <dt>关于健客</dt>
+                    <dd><a href="###">健客简介</a></dd>
+                    <dd><a href="###">资质荣誉</a></dd>
+                    <dd><a href="###">加入我们</a></dd>
+                    <dd><a href="###">联系我们</a></dd>
+                    <dd><a href="###">广告合作</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>支付配送方式</dt>
+                    <dd><a href="###">货到付款</a></dd>
+                    <dd><a href="###">第三方网上支付</a></dd>
+                    <dd><a href="###">配送范围和收费</a></dd>
+                    <dd><a href="###">商品签收注意</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>帮助中心</dt>
+                    <dd><a href="###">购物指南</a></dd>
+                    <dd><a href="###">订单处理</a></dd>
+                    <dd><a href="###">退换原则</a></dd>
+                    <dd><a href="###">退换方式</a></dd>
+                    <dd><a href="###">电话查真伪</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>客服热线</dt>
+                    <dd><span class="hot-line-tt">订购热线</span><span class="hot-line-num">400-6666-800</span></dd>
+                    <dd><span>服务时间：08:00-23:00</span></dd>
+                    <dd><span class="hot-line-tt">退换货热线：</span><span class="hot-line-num">400-6666-800</span></dd>
+                    <dd><span>服务时间：09:00-19:00</span></dd>
+                    <dd><a href="###"><img src="" alt=""></a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>手机平台</dt>
+                    <dd><a href="###"><em class="img1"></em></a><a href="###">健客医生</a></dd>
+                    <dd><a href="###"><em class="img2"></em></a><a href="###">健客网上商店</a></dd>
+                    <dd><a href="###"><em class="img3"></em></a><a href="###">手机糖宝</a></dd>
+                    <dd><a href="###"><em class="img4"></em></a><a href="###">健客问医生</a></dd>
+                    <dd><a href="###"><em class="img5"></em></a><a href="###">男人加油站</a></dd>
+                    <dd><a href="###"><em class="img6"></em></a><a href="###">护肤小贴士</a></dd>
+                    <dd><a href="###"><em class="img7"></em></a><a href="###">健客微商城</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>关于我们</dt>
+                    <dd><a href="###"><em class="img8"></em> </a><a href="###">微博</a></dd>
+                    <dd><a href="###"><em class="img9"></em> </a><a href="###">qq空间</a></dd>
+                    <dd><a href="###"><em class="img10"></em> </a><a href="###">微信</a></dd>
+
+                </dl>
+            </div>
+        </div>
+       
+
+        <div class="foot">
+            <div class="container">
+                <p>健客－国家药监局认证的合法网上药店，致力于打造优质、低价、便捷的网上药店和最值得信赖的健康服务平台</p>
+                <p>版权所有 Copyright©2006-2017 www.jianke.com All rights reserved</p>
+                <p>
+                    <a href="###">互联网药品交易服务资格证书</a>
+                    <a href="###">企业营业执照</a>
+                    <a href="###">互联网药品信息服务资格证书</a>
+                </p>
+                <div class="copy">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="ship-to-cart">
+            <div class="wx-code" href=""><a href="###">二维码</a></div>
+            <div class="check-cart" href="../html/cart.html">
+                <a href="../html/cart.html">去结账</a>
+                <div class="show-item-wrap" id="show-item-wrap">
+                    <ul class="items clearfix" id="side-items">
+                        <!-- <li class="main-pic fl">
+                          
+                              <a href="###"><img src="../images/list/goods-1.jpg" alt=""></a>
+                          
+                        </li>
+                        <li class="item-details fl">
+                            <span>布洛芬麻片胶囊</span>
+                            <span>10g*9袋</span>
+                            <span>24.00</span>
+                        </li>
+                        <li class="item-qty fl">
+                            <span>2</span>
+                        </li>
+                        <li class="del-item fl">
+                            <span class="am-icon-close" title="删除商品">X</span>
+                        </li> -->
+                    </ul>
+                    <ul class="total clearfix">
+                        <li class="fl">
+                            <span class="count"></span>
+                            <span class="price">合计:16元</span>
+        
+                        </li>
+                        <li class="fl">
+                            <a class="bill" href="cart.html">去结算</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="check-order" href="">订单</div>
+        </div>
+        <div class="am-modal am-modal-confirm" tabindex="-1" id="my-confirm">
+            <div class="am-modal-dialog">
+              <div class="am-modal-hd">嘿</div>
+              <div class="am-modal-bd">
+                您确定不要我了吗？
+              </div>
+              <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-cancel>我再考虑考虑</span>
+                <span class="am-modal-btn" data-am-modal-confirm>我很确定</span>
+              </div>
+            </div>
+          </div>
+
+    </div>
+</body>
+<script src="../js/details.js"></script>
+
+</html>

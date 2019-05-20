@@ -1,0 +1,225 @@
+#reg{
+    background: url(../../images/reg/register-bg.jpg) no-repeat;
+    min-height: 950px;
+}
+#reg .container{
+    width:980px;
+    margin: 0 auto;
+    font: 12px/22px "Microsoft YaHei",Simsun,Verdana,Arial,sans-serif;
+    color:#666;
+}
+
+
+/* ----head-start---- */
+#reg .head .container{
+    padding: 50px 20px 26.77px;
+    color:white;
+    font-size: 14px;    
+}
+#reg .head .head-logo{
+    width: 440px;
+    height: 33.75px;
+    margin-left: 20px;
+    background: url(../../images/reg/head-logo.png) no-repeat;
+}
+#reg .head .log-btn{
+    margin-right: 20px;
+}
+#reg .head .log-btn span{
+    margin-right: 5px;
+}
+#reg .head .log-btn a{
+    color: #32a1e8;
+    background: white;
+    cursor: pointer;
+    width: 28px;
+    height: 17px;
+    border:1px solid #ddd;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+/* ----main-start---- */
+
+#reg .main .container{
+    background-color: #fff;
+    min-height: 620px;
+}
+#reg .main .main-head{
+    color: #32a1e8;
+    border-bottom: 1px solid #32a1e8;
+    margin-bottom: 25px;
+
+}
+#reg .main .main-head h1{
+    text-align: center;
+    font-size: 18px;
+    line-height: 81px;
+   
+
+}
+
+/* ----form-part---- */
+#reg .form-wrap{
+   margin-left: 50%;
+   transform: translateX(-50%);
+}
+#reg .form-wrap span{
+    margin-right: 10px;
+}
+#form {
+    display: inline-block;
+    text-align: right;
+
+
+}
+#form p{
+    margin-top: 20px;
+    position: relative;
+
+}
+#form input{
+    border: 1px solid #ddd;
+    height: 43px;
+    text-indent: 12px;
+    width:350px;
+
+}
+#form #ver-code-input{
+    width: 190px;
+    height: 43px;
+    vertical-align: middle;
+    
+}
+#form .ver-code{
+    display: inline-block;
+    width:118px;
+    height: 43px;
+    border:solid 1px green;
+    vertical-align: middle;
+    margin-left: -5px;
+    cursor: pointer;
+    background:linear-gradient(to right , #ddd, white);
+    text-align-last:center;
+    line-height: 43px;
+    font-size: 30px;
+   
+}
+#form .code-chg-btn{
+    display: inline-block;
+    width:38px;
+    height:43px;
+    color:#32a1e8;
+    vertical-align: middle;
+    margin-left: -4px;
+    padding-left: 3px;
+    /* background-color: aqua; */
+    text-align-last: left;
+    cursor: pointer;
+}
+#form #msg-code-input{
+    width: 214px;
+    height: 45px;
+    vertical-align: middle;
+
+}
+#form .get-msg-code{
+    display: inline-block;
+    width: 137px;
+    height: 47px;
+    line-height: 47px;
+    color:#ddd;
+    cursor: pointer;
+    text-align: center;
+    border: solid #ddd 1px;
+    vertical-align: middle;
+    margin-left:-5px;
+}
+
+#form #reg-btn{
+    background: #32a1e8;
+    border-radius: 4px;
+    border:0px;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+#form #agree{
+    width: 12px;
+    height: 12px;
+}
+
+#form p:nth-last-of-type(1){
+    text-align:center;
+}
+#form p:nth-last-of-type(1) a{
+    display: inline;
+    color: #32a1e8;
+}
+#form .info-msg{
+    position: absolute;
+    top:45px;
+    left: 80px;
+    color:#c33;
+}
+#reg #form .active{
+    border-color:#c33
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----ad-start---- */
+
+#reg .ad-wrap {
+    position: fixed;
+    top: 88px;
+    right: 0px;
+    width: 106px;
+    height: 170px;
+    /* background: url(../images#reg/online_left.gif)no-repeat;
+    background-size: 100% 100%; */
+}
+#reg .ad-wrap img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

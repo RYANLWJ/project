@@ -1,0 +1,150 @@
+#jianke .nav {
+  margin-bottom: 10px;
+  background-color: #1369c0; }
+  #jianke .nav li {
+    line-height: 40px;
+    text-align: center; }
+    #jianke .nav li a {
+      color: white;
+      font-size: 18px;
+      padding: 0 18px; }
+      #jianke .nav li a:hover {
+        background: #0f54b3; }
+  #jianke .nav li:nth-of-type(1) {
+    width: 190px; }
+  #jianke .nav li:nth-last-child(1) {
+    width: 205px; }
+    #jianke .nav li:nth-last-child(1) img {
+      width: 100%;
+      height: 100%; }
+#jianke .main {
+  min-height: 700px; }
+  #jianke .main .left-nav-wrap {
+    width: 178px;
+    background-color: #E8E8E8;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    border-bottom: 0px; }
+    #jianke .main .left-nav-wrap h2 {
+      font-size: 14px;
+      padding: 8px 12px 9px;
+      background-color: #e8e8e8;
+      border-bottom: 1px solid #ddd; }
+    #jianke .main .left-nav-wrap .accordion {
+      text-align: center; }
+      #jianke .main .left-nav-wrap .accordion li {
+        line-height: 30px;
+        cursor: pointer; }
+        #jianke .main .left-nav-wrap .accordion li .submenu {
+          display: none;
+          background: white; }
+      #jianke .main .left-nav-wrap .accordion > li {
+        border-bottom: 1px solid #ddd; }
+  #jianke .main .right-list-wrap {
+    width: 992px;
+    min-height: 600px; }
+    #jianke .main .right-list-wrap .list-rank {
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      background-color: #f1f1f1; }
+      #jianke .main .right-list-wrap .list-rank a {
+        line-height: 28px;
+        text-align: center;
+        border-right: 1px solid #ddd;
+        padding: 0 12px; }
+        #jianke .main .right-list-wrap .list-rank a:hover {
+          color: #005EAC; }
+      #jianke .main .right-list-wrap .list-rank .next-btn,
+      #jianke .main .right-list-wrap .list-rank .pre-btn {
+        width: 39px;
+        height: 16px;
+        border: 1px solid #ddd;
+        margin-top: 5px;
+        background: url(../../images/list/list-sprite.png) no-repeat; }
+      #jianke .main .right-list-wrap .list-rank .pre-btn {
+        border-right: none;
+        background-position: 23px -148px; }
+      #jianke .main .right-list-wrap .list-rank .next-btn {
+        margin-right: 10px;
+        background-position: 23px -162px; }
+    #jianke .main .right-list-wrap .list-show .goods-wrap {
+      border: 1px solid white;
+      width: 246px;
+      height: 400px;
+      background-color: white;
+      margin: 0 2px 10px 0;
+      box-sizing: border-box;
+      padding: 30px 22px;
+      cursor: pointer; }
+      #jianke .main .right-list-wrap .list-show .goods-wrap:hover {
+        border: 1px solid #ddd; }
+        #jianke .main .right-list-wrap .list-show .goods-wrap:hover .into {
+          height: 60px; }
+      #jianke .main .right-list-wrap .list-show .goods-wrap dt {
+        height: 200px;
+        margin-bottom: 20px; }
+        #jianke .main .right-list-wrap .list-show .goods-wrap dt img {
+          width: 100%;
+          height: 100%; }
+      #jianke .main .right-list-wrap .list-show .goods-wrap .price span:nth-child(1) {
+        font-size: 16px;
+        color: red; }
+      #jianke .main .right-list-wrap .list-show .goods-wrap .price span:nth-child(2) {
+        font-size: 14px;
+        text-decoration: line-through; }
+      #jianke .main .right-list-wrap .list-show .goods-wrap .into {
+        height: 40px;
+        line-height: 20px;
+        overflow: hidden; }
+        #jianke .main .right-list-wrap .list-show .goods-wrap .into img {
+          width: 26px;
+          height: 14px; }
+      #jianke .main .right-list-wrap .list-show .goods-wrap .detail a {
+        width: 94px;
+        background-color: #e4393c;
+        color: white;
+        text-align: center;
+        line-height: 26px; }
+    #jianke .main .right-list-wrap .list-show .goods-wrap:nth-child(4n+4) {
+      margin-right: 0px; }
+    #jianke .main .right-list-wrap .paging-wrap {
+      font-size: 14px; }
+      #jianke .main .right-list-wrap .paging-wrap .paging {
+        width: 80%;
+        height: 30px;
+        margin-bottom: 80px;
+        text-align: right; }
+        #jianke .main .right-list-wrap .paging-wrap .paging a {
+          display: inline-block;
+          padding: 0 14px;
+          height: 28px;
+          border: 1px solid #d7d7d7;
+          margin-right: 5px;
+          vertical-align: middle;
+          line-height: 30px;
+          cursor: pointer; }
+          #jianke .main .right-list-wrap .paging-wrap .paging a:hover {
+            background-color: #005EAC;
+            color: white; }
+      #jianke .main .right-list-wrap .paging-wrap .turn-to-page {
+        width: 20%;
+        height: 30px; }
+        #jianke .main .right-list-wrap .paging-wrap .turn-to-page #page-input {
+          width: 20px;
+          height: 28px;
+          border: 1px solid #d7d7d7;
+          padding: 0 8px;
+          text-align: center;
+          margin: 0 10px; }
+        #jianke .main .right-list-wrap .paging-wrap .turn-to-page #go {
+          border: 1px solid #d7d7d7;
+          padding: 0 8px;
+          color: #666;
+          font-size: 14px;
+          line-height: 28px;
+          cursor: pointer; }
+          #jianke .main .right-list-wrap .paging-wrap .turn-to-page #go:hover {
+            background-color: #005EAC;
+            color: white; }
+
+/*# sourceMappingURL=list.css.map */

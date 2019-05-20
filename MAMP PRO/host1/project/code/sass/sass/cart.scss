@@ -1,0 +1,313 @@
+#jianke {
+    .container {
+        width: 1000px;
+    }
+
+    a {
+        cursor: pointer;
+
+        &:hover {
+            color: #3797EB;
+        }
+    }
+
+    .head {
+        .head-middle {
+            padding-bottom: 25px;
+
+            .container {
+                .logo-wrap {
+
+                    h1 {
+                        font-size: 24px;
+                        line-height: 41px;
+                    }
+
+                }
+
+                .processing {
+                    width: 480px;
+                    height: 70px;
+                    background: url(../../images/list/processing.jpg) no-repeat;
+                    background-position: 0 -7px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    .main {
+        min-height: 400px;
+        // background-color: azure;
+
+        .tap-wrap {
+
+            .btns-wrap {
+                a {
+                    border: 1px solid #ddd;
+                    border-bottom: none;
+                    width: 121px;
+                    line-height: 40px;
+                    text-align: center;
+
+                }
+
+                a:nth-child(1) {
+                    border-right: none;
+                }
+            }
+
+            .select-all-top {
+                border: 1px solid #ddd;
+                padding-left: 24px;
+
+                p {
+                    line-height: 40px;
+                }
+
+                p:nth-child(2) {
+                    width: 405px;
+                    padding-left: 30px;
+
+                }
+
+                p:nth-child(3) {
+                    width: 162px;
+                    padding-left: 5px;
+                }
+
+                p:nth-child(4) {
+                    width: 120px;
+                    margin-left: 7px;
+
+                }
+
+                p:nth-child(5) {
+                    width: 50px;
+                    margin-right: 50px;
+
+                }
+
+                p:nth-child(6) {
+                    width: 50px;
+
+                }
+            }
+
+            .self-support {
+                padding-left: 25px;
+                height: 20px;
+                margin: 10px 0 20px;
+
+                p {
+                    margin-right: 10px;
+                }
+
+                a {
+
+
+                    color: #fff;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    background: #3797EB;
+
+                    padding: 0 5px;
+                    height: 20px;
+
+                }
+            }
+        }
+
+        .order-wrap {
+
+            min-height: 300px;
+            background-color: rgba(231, 238, 211, 0.39);
+
+            .item {
+                height: 81px;
+                border: 1px solid #ddd;
+                padding: 18px 0 18px 24px;
+                background: #F3FBFE;
+                border-top: none;
+                dd{
+                    overflow: hidden;
+                }
+                .choose {
+                    margin-right: 5px;
+                }
+
+                .main-pic {
+                    width: 120px;
+                    margin-left: 34px;
+
+                    a {
+                        width: 79px;
+                        height: 79px;
+                        border: 1px solid #F3FBFE;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        &:hover {
+                            border-color: red;
+                        }
+                    }
+                }
+
+                .name {
+                    width: 100px;
+
+                    a {
+                        color: black;
+                    }
+                }
+
+                .size {
+                    width: 145px;
+                    margin-left: 62px;
+                }
+
+                .price {
+                    width: 100px;
+                    margin-left: 10px;
+
+                    span {
+                        display: block;
+                        font-size: 14px;
+                    }
+
+                    .currprice {
+                        color: black;
+                    }
+
+                    .origprice {
+                        text-decoration: line-through;
+                    }
+                }
+
+                .qty {
+                    margin-left: 25px;
+
+                    a {
+                        display: inline-block;
+                        width: 20px;
+                        height: 23px;
+                        border: 1px solid #ddd;
+                        vertical-align: middle;
+                        background-color: #ccc;
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 23px;
+
+                    }
+
+                    input {
+                        width: 40px;
+                        height: 23px;
+                        border: 1px solid #ddd;
+                        vertical-align: middle;
+                        text-align: center;
+                    }
+                }
+
+                .total {
+                    width: 50px;
+                    margin-left: 60px;
+                    
+                }
+
+                .fav {
+                    margin-left: 60px;
+                }
+
+            }
+
+            .item:nth-child(1) {
+                border-top: 1px solid #ddd;
+            }
+
+        }
+
+        .check-out-wrap {
+            margin-top: 20px;
+            width: 100%;
+
+            background-color: #eee;
+
+            li {
+                line-height: 60px;
+
+                &:nth-child(5) {
+                    a {
+                        width: 150px;
+
+                        background-color: #f40;
+                        line-height: 60px;
+                        text-align: center;
+                        color: white;
+                        font-size: 24px;
+                    }
+                }
+
+                &:nth-child(1) {
+                    padding-left: 20px;
+                    margin-right: 20px;
+                }
+
+                &:nth-child(2) {
+
+                    a {
+                        padding: 0 20px;
+                    }
+                }
+
+                &:nth-child(3),
+                &:nth-child(4) {
+                    margin: 0 50px;
+
+                    span {
+                        display: block;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+        }
+
+
+
+
+    }
+
+    .contact-wrap {
+        .container {
+            .contact-item {
+                margin: 0 75px 0px 7px;
+            }
+
+            .contact-item:nth-child(5) {
+                margin-left: -17px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

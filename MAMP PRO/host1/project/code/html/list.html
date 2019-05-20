@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>列表页</title>
+
+
+
+    <link rel="stylesheet" href="../sass/css/base.css">
+    <link rel="stylesheet" href="../sass/css/com.css">
+    <link rel="stylesheet" href="../sass/css/list.css">
+
+    <script src="../js/commom.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/paging.js"></script>
+
+</head>
+
+<body>
+    <div id="jianke">
+        <div class="head">
+
+            <div class="head-top clearfix">
+                <div class="container">
+                    <ul class="welcome fl" id="welcome">
+                        <li class="fl"><a href="../html/main.html">欢迎来到剑客网上药店!</a></li>
+                        <li class="fl"><a class="login-inf" href="../html/login.html"></a> </li>
+                        <li class="fl"><a href="../html/reg.html">注册</a></li>
+                    </ul>
+                    <ul class="head-top-nav fr">
+                        <li class="fl"><a href="###">线下药店</a> </li>
+                        <li class="fl my-order">
+                            <a href="###">我的健客</a>
+                            <ul class="my-order-item">
+                                <li><a href="###">我的订单</a></li>
+                                <li><a href="###">我的优惠券</a></li>
+                            </ul>
+                        </li>
+                        <li class="fl cus-ser">
+                            <a href="###">客户服务</a>
+                            <ul class="cus-ser-item">
+                                <li><a href="###">购物指南</a></li>
+                                <li><a href="###">配送方式</a></li>
+                                <li><a href="###">支付方式</a></li>
+                                <li><a href="###">售后方式</a></li>
+                            </ul>
+                        </li>
+                        <li class="fl mobile-app">
+                            <em></em>
+                            <a href="###">手机版</a>
+                            <ul class="mobile-app-item">
+                                <li><a href="###">购物指南</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="fl shopping-car"><em></em> <a href="###">购物车</a> </li>
+                        <li class="fl home-nav">
+                            <em></em>
+                            <a href="###">网站导航</a>
+                            <ul class="home-nav-item">
+                                <li><a href="###">购物指南</a></li>
+                                <li><a href="###">配送方式</a></li>
+                                <li><a href="###">支付方式</a></li>
+                                <li><a href="###">售后方式</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="head-middle ">
+                <div class="container clearfix">
+                    <dl class="logo-wrap fl">
+                        <dt class="logo-bg"></dt>
+                        <dd>轮播文字</dd>
+                    </dl>
+                    <dl class="search-wrap fl">
+                        <dt class="sch-bar-wrap">
+                            <em></em>
+                            <input type="text" name="user" id="sch-input">
+                            <input type="button" value="搜索" id="sch-btn">
+                            <a href="###">综合搜索</a>
+                        </dt>
+                        <dd>热门搜索:
+                            <a href="###">金戈</a>
+                            <a href="###">伟力得</a>
+                            <a href="###">爱丽</a>
+                            <a href="###">必利劲</a>
+                            <a href="###">安宫牛黄丸</a>
+
+                        </dd>
+                    </dl>
+                    <dl class="shipping-wrap fl">
+                        <a href=""><em></em>物流查询</a>
+                        <a href=""><em></em>我的订单</a>
+
+                </div>
+            </div>
+
+        </div>
+        <ul class="nav">
+            <div class="container clearfix">
+                <li class="fl"><a href="###">全部商品分类</a></li>
+                <li class="fl"><a href="../html/main.html">首页</a></li>
+                <li class="fl"><a href="../html/main.html">新药特药</a></li>
+                <li class="fl"><a href="../html/main.html">男科频道</a></li>
+                <li class="fl"><a href="../html/main.html">无痛测糖</a></li>
+                <li class="fl"><a href="../html/main.html">保健商城</a></li>
+                <li class="fl"><a href="../html/main.html">成人用品</a></li>
+                <li class="fr">
+                    <img src="../images/list/tel.jpg" alt="">
+                </li>
+            </div>
+        </ul>
+
+        <div class="main">
+            <div class="container clearfix">
+                <div class="left-nav-wrap fl">
+                    <h2>中西药品</h2>
+                        <ul id="accordion" class="accordion">
+                                <li>
+                                    <div class="link">皮肤用品<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>领导空间</a></li>
+                                        <li><a>职员空间</a></li>
+                                        <li><a>会议空间</a></li>
+                                        <li><a>存储空间</a></li>
+                                        <li><a>公共休闲空间</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link">补益安神<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>新中式</a></li>
+                                        <li><a>现代简约</a></li>
+                                        <li><a>古典庄重</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link">解热镇痛<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>胶版系列</a></li>
+                                        <li><a>实木系列</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>肝胆胰类<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>泌尿系统<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>艾滋病药<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>中药饮片<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>维矿物质<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>神经系统<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>儿科用药<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>艾滋病药<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>中药饮片<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>维矿物质<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>神经系统<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link"></i>儿科用药<i class="fa fa-chevron-down"></i></div>
+                                    <ul class="submenu">
+                                        <li><a>吧台</a></li>
+                                        <li><a>茶几</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+
+                </div>
+                <div class="right-list-wrap fl">
+                    <div class="list-classify"></div>
+                    <div class="list-rank clearfix">
+                        <a class="fl com-rk" href="###">综合排序</a>
+                        <a class="fl quan-rk" href="###">销量</a>
+                        <a class="fl price-rk" href="###">价格<em></em></a>
+                        <a class="fl time-rk" href="###">上架时间</a>
+                        <a class="fr next-btn" href="###"></a>
+                        <a class="fr pre-btn" href="###"></a>
+                        <a class="fr quan-show" href="###">2</a>
+                        <a class="fr total-show" href="###"></a>
+                    </div>
+                    <div class="list-show clearfix" id="list-show">
+                        <!-- <dl class="goods-wrap fl" data-id="1">
+                            <dt class="img">
+                                <img src="../images/list/goods-1.jpg" alt="">
+                            </dt>
+
+                            <dd class="price">
+                                <span>¥12.0</span>
+                                <span>¥13.0</span>
+                            </dd>
+                            <dd class="into">
+                                <img src="../images/list/ico-otc.gif" alt="">
+                                <span>
+                                    尼美舒利颗瑞芝清
+                                    本品为非甾体抗炎药，仅在至少一种其他非甾体抗炎药治疗失败的情况下使用。可用于慢性关节炎（如骨关节炎等）的疼痛、手术和急性创伤后的疼痛、原发性痛经的症状治疗。
+                                </span>
+                            </dd>
+                            <dd class="detail">
+                                <a href="###">查看详情</a>
+                            </dd>
+                        </dl> -->
+                    </div>
+                    <div class="paging-wrap">
+                        <div class="fl paging"></div>
+                        <div class="fl turn-to-page">
+                            到第<input type="text" id="page-input" >页
+                            <input type="button" value="确认" id="go">
+                        </div>
+                        </div>
+                </div>
+               
+            </div>
+        </div>
+
+
+        <div class="contact-wrap">
+            <div class="container clearfix">
+                <dl class="contact-item fl">
+                    <dt>关于健客</dt>
+                    <dd><a href="###">健客简介</a></dd>
+                    <dd><a href="###">资质荣誉</a></dd>
+                    <dd><a href="###">加入我们</a></dd>
+                    <dd><a href="###">联系我们</a></dd>
+                    <dd><a href="###">广告合作</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>支付配送方式</dt>
+                    <dd><a href="###">货到付款</a></dd>
+                    <dd><a href="###">第三方网上支付</a></dd>
+                    <dd><a href="###">配送范围和收费</a></dd>
+                    <dd><a href="###">商品签收注意</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>帮助中心</dt>
+                    <dd><a href="###">购物指南</a></dd>
+                    <dd><a href="###">订单处理</a></dd>
+                    <dd><a href="###">退换原则</a></dd>
+                    <dd><a href="###">退换方式</a></dd>
+                    <dd><a href="###">电话查真伪</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>客服热线</dt>
+                    <dd><span class="hot-line-tt">订购热线</span><span class="hot-line-num">400-6666-800</span></dd>
+                    <dd><span>服务时间：08:00-23:00</span></dd>
+                    <dd><span class="hot-line-tt">退换货热线：</span><span class="hot-line-num">400-6666-800</span></dd>
+                    <dd><span>服务时间：09:00-19:00</span></dd>
+                    <dd><a href="###"><img src="" alt=""></a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>手机平台</dt>
+                    <dd><a href="###"><em class="img1"></em></a><a href="###">健客医生</a></dd>
+                    <dd><a href="###"><em class="img2"></em></a><a href="###">健客网上商店</a></dd>
+                    <dd><a href="###"><em class="img3"></em></a><a href="###">手机糖宝</a></dd>
+                    <dd><a href="###"><em class="img4"></em></a><a href="###">健客问医生</a></dd>
+                    <dd><a href="###"><em class="img5"></em></a><a href="###">男人加油站</a></dd>
+                    <dd><a href="###"><em class="img6"></em></a><a href="###">护肤小贴士</a></dd>
+                    <dd><a href="###"><em class="img7"></em></a><a href="###">健客微商城</a></dd>
+                </dl>
+                <dl class="contact-item fl">
+                    <dt>关于我们</dt>
+                    <dd><a href="###"><em class="img8"></em> </a><a href="###">微博</a></dd>
+                    <dd><a href="###"><em class="img9"></em> </a><a href="###">qq空间</a></dd>
+                    <dd><a href="###"><em class="img10"></em> </a><a href="###">微信</a></dd>
+
+                </dl>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="container">
+                <p>健客－国家药监局认证的合法网上药店，致力于打造优质、低价、便捷的网上药店和最值得信赖的健康服务平台</p>
+                <p>版权所有 Copyright©2006-2017 www.jianke.com All rights reserved</p>
+                <p>
+                    <a href="###">互联网药品交易服务资格证书</a>
+                    <a href="###">企业营业执照</a>
+                    <a href="###">互联网药品信息服务资格证书</a>
+                </p>
+                <div class="copy">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                    <img src="../images/gongshang.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../js/list.js"></script>
+
+</html>

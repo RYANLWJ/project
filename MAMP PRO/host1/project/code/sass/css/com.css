@@ -1,0 +1,291 @@
+#jianke {
+  color: #666;
+  font-family: "Microsoft YaHei";
+  font-size: 12px; }
+  #jianke .container {
+    width: 1210px;
+    margin: 0 auto; }
+    #jianke .container a {
+      color: #666; }
+  #jianke .head a:hover {
+    color: #0691f9; }
+  #jianke .head .head-top {
+    line-height: 35px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f5f5f5;
+    border-top: 1px solid #fff; }
+    #jianke .head .head-top .welcome li {
+      margin-right: 35px; }
+    #jianke .head .head-top .head-top-nav a {
+      display: inline-block;
+      vertical-align: middle; }
+    #jianke .head .head-top .head-top-nav li {
+      padding-right: 20px;
+      padding-left: 8px;
+      position: relative;
+      border: 1px solid #f5f5f5;
+      border-top: none; }
+    #jianke .head .head-top .head-top-nav em {
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 16px;
+      background: url(../../images/home-front-img.png) no-repeat; }
+    #jianke .head .head-top .head-top-nav li:nth-child(4) em {
+      background-position: -73px -88px; }
+    #jianke .head .head-top .head-top-nav li:nth-child(5) em {
+      background-position: -47px -89px; }
+    #jianke .head .head-top .head-top-nav li:nth-child(6) em {
+      background-position: -2px -88px; }
+    #jianke .head .head-top .head-top-nav .my-order::after,
+    #jianke .head .head-top .head-top-nav .cus-ser::after,
+    #jianke .head .head-top .head-top-nav .mobile-app::after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 4px;
+      background-color: #0691f9;
+      left: 58px;
+      top: 16px;
+      background: url(../../images/home-front-img.png) no-repeat;
+      background-position: -20px -93px;
+      transition: background-position 0.3s ease; }
+    #jianke .head .head-top .head-top-nav .mobile-app::after {
+      left: 69px; }
+    #jianke .head .head-top .head-top-nav .my-order:hover::after,
+    #jianke .head .head-top .head-top-nav .cus-ser:hover::after,
+    #jianke .head .head-top .head-top-nav .mobile-app:hover::after {
+      background-position: -33px -93px; }
+    #jianke .head .head-top .head-top-nav .my-order,
+    #jianke .head .head-top .head-top-nav .cus-ser,
+    #jianke .head .head-top .head-top-nav .mobile-app,
+    #jianke .head .head-top .head-top-nav .home-nav {
+      box-sizing: border-box; }
+      #jianke .head .head-top .head-top-nav .my-order .my-order-item,
+      #jianke .head .head-top .head-top-nav .my-order .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .my-order .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .my-order .home-nav-item,
+      #jianke .head .head-top .head-top-nav .cus-ser .my-order-item,
+      #jianke .head .head-top .head-top-nav .cus-ser .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .cus-ser .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .cus-ser .home-nav-item,
+      #jianke .head .head-top .head-top-nav .mobile-app .my-order-item,
+      #jianke .head .head-top .head-top-nav .mobile-app .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .mobile-app .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .mobile-app .home-nav-item,
+      #jianke .head .head-top .head-top-nav .home-nav .my-order-item,
+      #jianke .head .head-top .head-top-nav .home-nav .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .home-nav .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .home-nav .home-nav-item {
+        width: 100%;
+        display: none;
+        position: absolute;
+        left: -1px;
+        border: 1px solid #e5e5e5;
+        background: white;
+        border-top: none;
+        z-index: 1; }
+        #jianke .head .head-top .head-top-nav .my-order .my-order-item li,
+        #jianke .head .head-top .head-top-nav .my-order .cus-ser-item li,
+        #jianke .head .head-top .head-top-nav .my-order .mobile-app-item li,
+        #jianke .head .head-top .head-top-nav .my-order .home-nav-item li,
+        #jianke .head .head-top .head-top-nav .cus-ser .my-order-item li,
+        #jianke .head .head-top .head-top-nav .cus-ser .cus-ser-item li,
+        #jianke .head .head-top .head-top-nav .cus-ser .mobile-app-item li,
+        #jianke .head .head-top .head-top-nav .cus-ser .home-nav-item li,
+        #jianke .head .head-top .head-top-nav .mobile-app .my-order-item li,
+        #jianke .head .head-top .head-top-nav .mobile-app .cus-ser-item li,
+        #jianke .head .head-top .head-top-nav .mobile-app .mobile-app-item li,
+        #jianke .head .head-top .head-top-nav .mobile-app .home-nav-item li,
+        #jianke .head .head-top .head-top-nav .home-nav .my-order-item li,
+        #jianke .head .head-top .head-top-nav .home-nav .cus-ser-item li,
+        #jianke .head .head-top .head-top-nav .home-nav .mobile-app-item li,
+        #jianke .head .head-top .head-top-nav .home-nav .home-nav-item li {
+          padding: 0; }
+      #jianke .head .head-top .head-top-nav .my-order:hover .my-order-item, #jianke .head .head-top .head-top-nav .my-order:hover .cus-ser-item, #jianke .head .head-top .head-top-nav .my-order:hover .mobile-app-item, #jianke .head .head-top .head-top-nav .my-order:hover .home-nav-item,
+      #jianke .head .head-top .head-top-nav .cus-ser:hover .my-order-item,
+      #jianke .head .head-top .head-top-nav .cus-ser:hover .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .cus-ser:hover .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .cus-ser:hover .home-nav-item,
+      #jianke .head .head-top .head-top-nav .mobile-app:hover .my-order-item,
+      #jianke .head .head-top .head-top-nav .mobile-app:hover .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .mobile-app:hover .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .mobile-app:hover .home-nav-item,
+      #jianke .head .head-top .head-top-nav .home-nav:hover .my-order-item,
+      #jianke .head .head-top .head-top-nav .home-nav:hover .cus-ser-item,
+      #jianke .head .head-top .head-top-nav .home-nav:hover .mobile-app-item,
+      #jianke .head .head-top .head-top-nav .home-nav:hover .home-nav-item {
+        display: block; }
+      #jianke .head .head-top .head-top-nav .my-order:hover,
+      #jianke .head .head-top .head-top-nav .cus-ser:hover,
+      #jianke .head .head-top .head-top-nav .mobile-app:hover,
+      #jianke .head .head-top .head-top-nav .home-nav:hover {
+        border: 1px solid #e5e5e5;
+        background: white;
+        border-top: none;
+        border-bottom: 1px solid white; }
+  #jianke .head .head-middle {
+    padding: 35px 0 15px; }
+    #jianke .head .head-middle .container dl {
+      height: 130px; }
+    #jianke .head .head-middle .container .logo-wrap {
+      margin-right: 80px; }
+      #jianke .head .head-middle .container .logo-wrap .logo-bg {
+        background: url(../../images/logo.gif) no-repeat;
+        width: 265px;
+        height: 55px;
+        background-position: 0 -35px; }
+    #jianke .head .head-middle .container .search-wrap .sch-bar-wrap {
+      width: 546px;
+      height: 50px;
+      position: relative; }
+      #jianke .head .head-middle .container .search-wrap .sch-bar-wrap em {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        background: url(../../images/home-front-img.png) no-repeat;
+        background-position: -34px -171px; }
+      #jianke .head .head-middle .container .search-wrap .sch-bar-wrap a {
+        display: inline-block;
+        width: 24px;
+        height: 40px;
+        vertical-align: middle;
+        padding-left: 3px; }
+      #jianke .head .head-middle .container .search-wrap .sch-bar-wrap #sch-input {
+        width: 406px;
+        height: 36px;
+        border: 2px solid #0691f9;
+        vertical-align: middle;
+        text-indent: 30px; }
+      #jianke .head .head-middle .container .search-wrap .sch-bar-wrap #sch-btn {
+        width: 98px;
+        border-left: none;
+        height: 40px;
+        border: 2px solid #0691f9;
+        font-size: 18px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #0691f9;
+        cursor: pointer;
+        margin-left: -3px;
+        color: white;
+        vertical-align: middle; }
+    #jianke .head .head-middle .container .search-wrap a {
+      display: inline; }
+    #jianke .head .head-middle .container .shipping-wrap {
+      margin: 4px 0 0 80px;
+      line-height: 30px;
+      font-size: 14px;
+      text-align: center; }
+      #jianke .head .head-middle .container .shipping-wrap a {
+        width: 105px;
+        display: inline-block;
+        border: 1px solid #eee; }
+      #jianke .head .head-middle .container .shipping-wrap em {
+        background: url(../../images/home-front-img.png) no-repeat;
+        width: 20px;
+        height: 15px;
+        display: inline-block;
+        vertical-align: middle; }
+      #jianke .head .head-middle .container .shipping-wrap a:nth-child(1) em {
+        background-position: -3px -142px; }
+      #jianke .head .head-middle .container .shipping-wrap a:nth-child(2) em {
+        background-position: -95px -90px; }
+  #jianke .contact-wrap {
+    background-color: rgba(185, 166, 248, 0.431);
+    color: #666;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 26px;
+    background-color: #f4f4f4;
+    border-top: 2px solid #0691f9; }
+    #jianke .contact-wrap .container {
+      padding: 26px 0 0; }
+      #jianke .contact-wrap .container .contact-item {
+        margin: 0 95px 0px 7px; }
+        #jianke .contact-wrap .container .contact-item dt {
+          color: #3c3c3c;
+          font-family: "Microsoft YaHei";
+          font-size: 16px; }
+        #jianke .contact-wrap .container .contact-item a {
+          display: inline-block;
+          color: #666;
+          vertical-align: middle; }
+          #jianke .contact-wrap .container .contact-item a:hover {
+            color: #0691f9; }
+        #jianke .contact-wrap .container .contact-item dd em {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+          background: url(../../images/contact-sprit.png) no-repeat; }
+        #jianke .contact-wrap .container .contact-item .img1 {
+          background-position: 0px 0; }
+        #jianke .contact-wrap .container .contact-item .img2 {
+          background-position: -32px 0; }
+        #jianke .contact-wrap .container .contact-item .img3 {
+          background-position: -64px 0; }
+        #jianke .contact-wrap .container .contact-item .img4 {
+          background-position: -96px 0; }
+        #jianke .contact-wrap .container .contact-item .img5 {
+          background-position: 0 0; }
+        #jianke .contact-wrap .container .contact-item .img6 {
+          background-position: 0 -29px; }
+        #jianke .contact-wrap .container .contact-item .img7 {
+          background-position: -130px -29px; }
+        #jianke .contact-wrap .container .contact-item .img8 {
+          background-position: -130px 0; }
+        #jianke .contact-wrap .container .contact-item .img9 {
+          background-position: -66px -29px; }
+        #jianke .contact-wrap .container .contact-item .img10 {
+          background-position: -32px -29px; }
+      #jianke .contact-wrap .container .contact-item:nth-child(4) .hot-line-tt {
+        color: #0691f9;
+        font-size: 16px; }
+      #jianke .contact-wrap .container .contact-item:nth-child(4) .hot-line-num {
+        color: #0691f9;
+        font-size: 20px; }
+      #jianke .contact-wrap .container .contact-item:nth-child(5) {
+        margin-left: 120px;
+        margin-right: 70px; }
+        #jianke .contact-wrap .container .contact-item:nth-child(5) a:nth-child(1) {
+          width: 30px;
+          height: 30px; }
+      #jianke .contact-wrap .container .contact-item:nth-last-child(1) {
+        margin-right: 0px; }
+        #jianke .contact-wrap .container .contact-item:nth-last-child(1) a:nth-child(1) {
+          width: 30px;
+          height: 30px; }
+  #jianke .foot {
+    min-height: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 28px; }
+    #jianke .foot .container p:nth-child(3) a {
+      display: inline;
+      line-height: 28px;
+      margin-right: 5px;
+      position: relative;
+      color: #666; }
+      #jianke .foot .container p:nth-child(3) a:after {
+        content: '';
+        top: 3px;
+        position: absolute;
+        width: 1px;
+        height: 9px;
+        background-color: #666;
+        margin-left: 5px; }
+      #jianke .foot .container p:nth-child(3) a:hover {
+        color: #0691f9; }
+    #jianke .foot .container p:nth-child(3) a:nth-child(3)::after {
+      display: none; }
+    #jianke .foot .copy {
+      margin-bottom: 20px; }
+      #jianke .foot .copy img {
+        width: 120px;
+        height: 50px;
+        margin-right: 3px; }
+
+/*# sourceMappingURL=com.css.map */

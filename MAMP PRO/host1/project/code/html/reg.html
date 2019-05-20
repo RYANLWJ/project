@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+    <link rel="stylesheet" href="../sass/css/base.css">
+    <link rel="stylesheet" href="../sass/css/reg.css">
+    <script src="../js/commom.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+</head>
+
+<body>
+    <div id="reg">
+        <div class="head">
+            <div class="container clearfix">
+                <div class="head-logo fl"></div>
+                <div class="log-btn fr clearfix"><span class="fl">如已注册，点此</span><a  class="fl"href="login.html">登录</a></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="main-head">
+                    <h1>新用户注册</h1>
+                </div>
+                <div class="form-wrap">
+                    <form action="" id="form">
+                        <p><span>手机号码</span> <input type="tel" name="user" placeholder="请输入您的手机号" id="tel"><span class="info-msg"></span> </p>
+                        <p class="clearfix"><span>验证码</span> <input type="text" name="user" placeholder="请输入验证码" id="ver-code-input">
+                            <i class="ver-code chgbtn"></i>
+                            <i class="code-chg-btn chgbtn">看不清<br/>换一张</i>
+                            <span class="info-msg"></span> 
+                        </p>
+                        <p class="clearfix"><span>短信验证码</span> <input type="text"  name="user" placeholder="请输入短信验证码" id="msg-code-input">
+                            <button class="get-msg-code">获取短信验证码</button>
+                            <span class="info-msg"></span> 
+                        </p>
+                        <p><span>设置密码</span> <input type="password" name="user" placeholder="密码长度6-16位字符(区分大小写)" id="set-psw"> <span class="info-msg"></span> </p>
+                        <p><span>确认密码</span> <input type="password" name="user" placeholder="密码请保持一致" id="ver-psw"> <span class="info-msg"></span> </p>
+                        <p><input type="button" name="user" id="reg-btn" value="立即注册"> </p>
+                        <p><input type="checkbox" name="username" id="agree" checked="checked">
+                            <span>我已阅读并同意 <a href="https://www.jianke.com/help/trading.html">《健客网用户使用条款》</a>
+                            </span>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="ad-wrap">
+            <img src="../images/login/online_left.gif" alt="" usemap="#ad">
+            <map id="ad" name="ad">
+                <area shape="rect" coords="8,145,96,180" alt="点击立即咨询" href="#">
+            </map>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+    <script src="../js/reg.js"></script>
+</html>
